@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.judul {
+    text-align: left;
+    background-color: #0089fa;
+    color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+.calculator {
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #0089fa;
+    border-radius: 0px;
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+h2 {
+    text-align: center;
+    background-color: #0089fa;
+    color: white;
+    padding: 40px;
+    border-radius: 0px;
+}
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 1px;
+    margin-bottom: 16px;
+    border: 1px solid #0089fa;
+    border-radius: 4px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container button {
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #0089fa;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0px;
+}
+
+button:hover {
+    background-color: #0089fa;
+}
+
+button.reset {
+    background-color: #f44336;
+    color: white;
+}
+
+button.reset:hover {
+    background-color: #d32f2f;
+}
+#result {
+    margin-top: 20px;
+}
+.text-center {
+    text-align: center;
+}

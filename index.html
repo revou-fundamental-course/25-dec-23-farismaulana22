@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kalkulator Luas Segitiga</title>
+</head>
+<body>
+    <div class="judul">
+        <h1>KALKULATOR SEGITIGA</h1>
+    </div>
+
+    <div class="calculator">
+        <h2>Luas Segitiga</h2>
+        <img src="Rumus Luas Segitiga.png" alt="Triangle Image" width="200" height="200">
+        <form id="triangleForm">
+            <label for="base">Alas:</label>
+            <input type="number" id="base" required>
+
+            <label for="height">Tinggi:</label>
+            <input type="number" id="height" required>
+
+            <div class="button-container">
+            <button type="button" onclick="calculate()">Hitung Luas</button>
+            <button class="reset" onclick="resetForm()">Reset</button>
+            </div>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <div class="calculator" id="perimeterCalculator">
+        <h2>Keliling Segitiga</h2>
+        <img src="Rumus Keliling Segitiga.png" alt="Triangle Image" width="300" height="200">
+        <form id="triangleFormPerimeter">
+            <label for="sideA">Sisi 1:</label>
+            <input type="number" id="sideA" required>
+
+            <label for="sideB">Sisi 2:</label>
+            <input type="number" id="sideB" required>
+
+            <label for="sideC">Sisi 3:</label>
+            <input type="number" id="sideC" required>
+
+            <div class="button-container">
+            <button type="button" onclick="calculatePerimeter()">Hitung Keliling</button>
+            <button class="reset" onclick="resetForm()">Reset</button>
+            </div>
+        </form>
+
+        <div id="resultPerimeter"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
